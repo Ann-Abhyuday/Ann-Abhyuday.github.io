@@ -1,0 +1,4 @@
+baseURL = 'https://a-abhyuday.com/'
+locale = 'en-us'
+title = 'My New Hugo Project'
+theme = 'hugo-xmin'

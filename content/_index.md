@@ -1,7 +1,9 @@
 +++
-template = "homepage.html"
+title= "intro"
+template = "intro.html"
+insert_anchor_links = "heading"
 +++
 
-# Abhyuday
+Hello,
 
-Website.
+Currently working on computers.

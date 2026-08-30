@@ -29,6 +29,7 @@ theme = 'auto'
 socials = [
     { name = "linkedin", url = "https://in.linkedin.com/in/annepu-abhyuday", icon = "linkedin"},
     { name = "github", url = "https://github.com/Ann-Abhyuday", icon = "github" },
+    { name = "codeberg", url = "https://codeberg.org/prod_destroyer", icon = "codeberg" },
 ]
 menu = [
     { name = "/home", url = "/", weight = 1 },

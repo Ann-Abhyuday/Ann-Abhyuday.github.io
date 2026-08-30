@@ -1,9 +1,9 @@
-{%extends "base.html"%}
+{% extends "base.html" %}
 
 {% block main_content %}
     <div class="tag-cloud">
         {% block title %}
-            {{ post_macros::page_header(title="tags") }}
+            {{<post.page_header title="tags" />}}
         {% endblock title %}
 
         <main class="list">
@@ -11,7 +11,7 @@
                 {% for term in terms %}
                 <li>
                     <a href="{{ term.permalink | safe }}">
-                        {{ term.name }} ({{ term.pages | length }} post{{ term.pages | length | pluralize }})
+                        {{ term.name }} ({{ term.page_count }} post{{ term.page_count | pluralize }})
                     </a>
                 </li>
                 {% endfor %}
